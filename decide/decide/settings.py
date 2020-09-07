@@ -72,6 +72,18 @@ MODULES = [
 
 BASEURL = 'https://lucbon-egc-sept1920.herokuapp.com/'
 
+APIS = {
+    'authentication': BASEURL,
+    'base': BASEURL,
+    'booth': BASEURL,
+    'census': BASEURL,
+    'mixnet': BASEURL,
+    'postproc': BASEURL,
+    'store': BASEURL,
+    'visualizer': BASEURL,
+    'voting': BASEURL,
+}
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
