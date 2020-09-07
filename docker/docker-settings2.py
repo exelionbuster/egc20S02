@@ -27,7 +27,7 @@ MODULES = [
     'voting',
 ]
 
-BASEURL = 'http://localhost:8000'
+BASEURL = 'http://localhost:8009'
 
 APIS = {
     'authentication': BASEURL,
